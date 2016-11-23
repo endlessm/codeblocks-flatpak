@@ -48,6 +48,7 @@
             "name": "wxWidgets",
             "cxxflags": ["-std=c++0x"],
             "make-args": ["-j4"],
+            "config-opts": ["--disable-debug"],
             "sources": [
                 {
                     "type": "archive",
