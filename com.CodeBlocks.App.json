@@ -1,0 +1,101 @@
+{
+    "app-id": "com.CodeBlocks.App",
+    "runtime": "org.gnome.Sdk",
+    "runtime-version": "3.22",
+    "sdk": "org.gnome.Sdk",
+    "command": "codeblocks",
+     "finish-args": [
+        "--allow=devel",
+        "--share=ipc", 
+        "--socket=x11",
+        "--socket=wayland",
+        "--filesystem=host",
+        "--share=network",
+        "--filesystem=xdg-run/dconf"
+    ],
+    "modules": [
+        {
+            "name": "libXmu",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.x.org/releases/individual/lib/libXmu-1.1.2.tar.gz",
+                    "sha256": "e5fd4bacef068f9509b8226017205040e38d3fba8d2de55037200e7176c13dba"
+                }
+            ]
+        },
+        {
+            "name": "libXaw",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.x.org/archive//individual/lib/libXaw-1.0.9.tar.gz",
+                    "sha256": "48bfd7b120e8b66d9dc19cedf377d3458ce8fd63502aabed256a07f920039d9a"
+                }
+            ]
+        },
+        {
+            "name": "xterm",
+            "sources":[
+                {
+                    "type": "archive",
+                    "url": "http://invisible-island.net/datafiles/release/xterm.tar.gz",
+                    "sha256": "66fb2f6c35b342148f549c276b12a3aa3fb408e27ab6360ddec513e14376150b"
+                }
+            ]
+        },
+        {
+            "name": "wxWidgets",
+            "cxxflags": ["-std=c++0x"],
+            "make-args": ["-j4"],
+            "config-opts": ["--disable-debug"],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.0/wxWidgets-3.1.0.tar.bz2",
+                    "sha256": "e082460fb6bf14b7dd6e8ac142598d1d3d0b08a7b5ba402fdbf8711da7e66da8"
+                }
+            ]
+        },
+        {
+            "name": "CodeBlocks",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "http://downloads.sourceforge.net/project/codeblocks/Sources/16.01/codeblocks_16.01.tar.gz?r=&ts=1478766241&use_mirror=heanet",
+                    "sha256": "30fb9d206df4ab3c2e2fec2451a0a7c9723bfed9a673cc9be71e881c529d5a03"
+                },
+                {
+                    "type": "shell",
+                    "commands": [ "autoreconf --warnings=all --verbose --install"]
+                }
+            ]
+        },
+        {
+            "name": "metadata",
+            "no-autogen": true,
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "Makefile",
+                    "dest-filename": "Makefile"
+                },
+                {
+                    "type": "file",
+                    "path": "com.CodeBlocks.App.png",
+                    "dest-filename": "com.CodeBlocks.App.png"
+                },
+                {
+                    "type": "file",
+                    "path": "com.CodeBlocks.App.desktop",
+                    "dest-filename": "com.CodeBlocks.App.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "com.CodeBlocks.App.appdata.xml",
+                    "dest-filename": "com.CodeBlocks.App.appdata.xml"
+                }
+            ]
+        }
+    ]
+}

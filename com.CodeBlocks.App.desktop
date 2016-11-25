@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Code::Blocks IDE
+GenericName=Integrated development environment
+Comment=Configurable and extensible IDE
+Exec=codeblocks
+Icon=com.CodeBlocks.App
+Terminal=false
+Categories=Development;IDE;GTK;
