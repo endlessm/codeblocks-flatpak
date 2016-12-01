@@ -1,5 +1,5 @@
 {
-    "app-id": "com.CodeBlocks.App",
+    "app-id": "org.codeblocks.App",
     "runtime": "org.gnome.Sdk",
     "runtime-version": "3.22",
     "sdk": "org.gnome.Sdk",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "name": "CodeBlocks",
+            "name": "codeblocks",
             "sources": [
                 {
                     "type": "archive",
@@ -82,18 +82,18 @@
                 },
                 {
                     "type": "file",
-                    "path": "com.CodeBlocks.App.png",
-                    "dest-filename": "com.CodeBlocks.App.png"
+                    "path": "org.codeblocks.App.png",
+                    "dest-filename": "org.codeblocks.App.png"
                 },
                 {
                     "type": "file",
-                    "path": "com.CodeBlocks.App.desktop",
-                    "dest-filename": "com.CodeBlocks.App.desktop"
+                    "path": "org.codeblocks.App.desktop",
+                    "dest-filename": "org.codeblocks.App.desktop"
                 },
                 {
                     "type": "file",
-                    "path": "com.CodeBlocks.App.appdata.xml",
-                    "dest-filename": "com.CodeBlocks.App.appdata.xml"
+                    "path": "org.codeblocks.App.appdata.xml",
+                    "dest-filename": "org.codeblocks.App.appdata.xml"
                 }
             ]
         }

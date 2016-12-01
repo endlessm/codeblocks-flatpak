@@ -4,6 +4,6 @@ Name=Code::Blocks IDE
 GenericName=Integrated development environment
 Comment=Configurable and extensible IDE
 Exec=codeblocks
-Icon=com.CodeBlocks.App
+Icon=org.codeblocks.App
 Terminal=false
 Categories=Development;IDE;GTK;
