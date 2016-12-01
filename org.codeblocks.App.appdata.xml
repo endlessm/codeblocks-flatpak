@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>com.CodeBlocks.App.desktop</id>
+  <id>org.codeblocks.App.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <summary>IDE for C, C++ and Fortran</summary>
   <description>
