@@ -2,6 +2,7 @@
 <component type="desktop">
   <id>org.codeblocks.App.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
+  <name>Code::Blocks</name>
   <summary>IDE for C, C++ and Fortran</summary>
   <description>
     <p>
