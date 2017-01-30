@@ -62,7 +62,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/project/codeblocks/Sources/16.01/codeblocks_16.01.tar.gz?r=&ts=1478766241&use_mirror=heanet",
+                    "url": "https://vorboss.dl.sourceforge.net/project/codeblocks/Sources/16.01/codeblocks_16.01.tar.gz",
                     "sha256": "30fb9d206df4ab3c2e2fec2451a0a7c9723bfed9a673cc9be71e881c529d5a03"
                 },
                 {
