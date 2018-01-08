@@ -36,11 +36,11 @@
         },
         {
             "name": "xterm",
-            "sources":[
+            "sources": [
                 {
                     "type": "archive",
-                    "url": "http://invisible-island.net/datafiles/release/xterm.tar.gz",
-                    "sha256": "66fb2f6c35b342148f549c276b12a3aa3fb408e27ab6360ddec513e14376150b"
+                    "url": "https://invisible-mirror.net/archives/xterm/xterm-331.tgz",
+                    "sha256": "9ae856a30fd93046be93952a6898ba47f6f88ad6a988a7c949c4c80d5199ef10"
                 }
             ]
         },
