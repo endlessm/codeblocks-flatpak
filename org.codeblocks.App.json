@@ -4,9 +4,9 @@
     "runtime-version": "3.26",
     "sdk": "org.gnome.Sdk",
     "command": "codeblocks",
-     "finish-args": [
+    "finish-args": [
         "--allow=devel",
-        "--share=ipc", 
+        "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
         "--filesystem=host",
